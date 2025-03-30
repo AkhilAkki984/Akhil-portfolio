@@ -13,6 +13,7 @@ export const EXPERIENCES = [
     year: "2024",
     role: "Frontend Developer trainee",
     company: "Deeksha Technologies",
+
     description: `Completed training in Frontend Development, focusing on HTML, CSS, and JavaScript. Gained hands-on experience in building responsive web pages, styling with CSS frameworks, and implementing dynamic functionalities using JavaScript. Worked on real-world projects to enhance UI/UX skills and improve web performance.`,
     technologies: ["HTML", "CSS", "JavaScript"]
 
@@ -33,6 +34,7 @@ image: coffee,
 description:
   "A coffee tracking application built with React.js, allowing users to log and manage their coffee consumption. Features include user authentication, data storage, and real-time updates using Firebase. Provides an intuitive UI for tracking coffee preferences and consumption history.",
 technologies: ["React.js", "HTML", "CSS", "JavaScript", "Firebase"],
+link:"https://AkhilAkki984.github.io",
 
   },
   {
@@ -41,6 +43,8 @@ technologies: ["React.js", "HTML", "CSS", "JavaScript", "Firebase"],
     description:
           "A movie discovery application built with React.js, allowing users to browse, search, and view details of movies. Integrated a movie database API for real-time updates and implemented a responsive UI for a seamless user experience.",
     technologies: ["React.js", "HTML", "CSS", "JavaScript", "API Integration"],
+    link:"https://AkhilAkki984.github.io",
+
 
   },
   {
@@ -49,6 +53,9 @@ technologies: ["React.js", "HTML", "CSS", "JavaScript", "Firebase"],
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwindcss", "React", "Bootstrap"],
+    link:"https://AkhilAkki984.github.io/Akhil-portfolio",
+
+
   },
   {
     title: "Admin Dashboard",
@@ -56,6 +63,8 @@ technologies: ["React.js", "HTML", "CSS", "JavaScript", "Firebase"],
     description:
       "A web-based admin dashboard built with React.js for managing users, products, and analytics. Features include real-time data visualization, role-based authentication, and CRUD operations for efficient management.",
     technologies: ["React.js", "HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+    link:"https://AkhilAkki984.github.io/",
+
   },
 ];
 

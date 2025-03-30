@@ -29,15 +29,18 @@ const Projects = () => {
                  whileInView={{opacity:1, x:0}}
                  initial={{opacity:0, x:100}}
                  transition={{duration:1}}
-                 className="w-full max-w-xl lg:w-3/4">
+                 className=" w-full max-w-xl lg:w-3/4">
                     <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
                     <p className="mb-4 text-stone-400">{project.description}</p>
                     {project.technologies.map((tech, index)=>(
-                        <span className="mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300" key={index}>{tech}</span>
+                        <span className="flex-wrap mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300" key={index}>{tech}</span>
                     ))}
                     <div className="text-center py-10 text-1xl mr-30">
-                        <a href="/" className="bg-stone-800 py-1 px-4  rounded-full hover:bg-stone-900">View</a>
-                        </div>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                  View
+                            </a>
+                </div>
+
                     </motion.div>
                 </div>
             ))}
