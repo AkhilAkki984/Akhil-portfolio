@@ -43,7 +43,7 @@ link:"https://AkhilAkki984.github.io",
     description:
           "A movie discovery application built with React.js, allowing users to browse, search, and view details of movies. Integrated a movie database API for real-time updates and implemented a responsive UI for a seamless user experience.",
     technologies: ["React.js", "HTML", "CSS", "JavaScript", "API Integration"],
-    link:"https://AkhilAkki984.github.io",
+    link:"https://github.com/AkhilAkki984/Movie-App",
 
 
   },

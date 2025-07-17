@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 
-// Load environment variables
+
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
@@ -39,7 +39,7 @@ const Contact = () => {
                 <motion.form
                     onSubmit={handlesubmit}
                     whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: -100 }}
+                    initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1 }}
                     className="space-y-6"
                 >
