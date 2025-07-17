@@ -28,15 +28,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Coffee Tracker",
-image: coffee,
-description:
-  "A coffee tracking application built with React.js, allowing users to log and manage their coffee consumption. Features include user authentication, data storage, and real-time updates using Firebase. Provides an intuitive UI for tracking coffee preferences and consumption history.",
-technologies: ["React.js", "HTML", "CSS", "JavaScript", "Firebase"],
-link:"https://AkhilAkki984.github.io",
-
-  },
+ 
   {
     title: "Movie-App",
     image: movie,
